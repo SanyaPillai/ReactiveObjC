@@ -54,6 +54,8 @@ Pod::Spec.new do |s|
                             "UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,"\
                             "UITableViewHeaderFooterView,UIText,MK,AppKit,NSControl,NSText,"\
                             "NSTable,NSURLConnection}*"
+                            
+  s.resource_bundles = { 'ReactiveObjC' => ['ReactiveObjC/*.xcprivacy'] }
 
   s.requires_arc = true
 
